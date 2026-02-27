@@ -1,0 +1,127 @@
+name: Netscout
+description: 'Netscout provides service assurance, cybersecurity, and DDoS protection solutions. Their APIs enable network visibility, threat intelligence, and performance monitoring across hybrid and cloud environments.
+
+  '
+image: https://www.netscout.com/sites/default/files/netscout-logo.png
+url: https://www.netscout.com
+created: '2025-01-20'
+modified: '2025-01-20'
+specificationVersion: '0.18'
+tags:
+- Network Monitoring
+- Cybersecurity
+- DDoS Protection
+- Service Assurance
+- Network Performance
+- Threat Intelligence
+apis:
+- name: Netscout nGeniusONE API
+  description: 'RESTful API for programmatic access to nGeniusONE platform data, enabling network performance monitoring, analytics, and service assurance automation.
+
+    '
+  image: https://www.netscout.com/sites/default/files/ngenius-one-logo.png
+  humanURL: https://www.netscout.com/product/ngenius-one
+  baseURL: https://api.netscout.com/ngenius
+  tags:
+  - Network Performance
+  - Analytics
+  - Monitoring
+  - Service Assurance
+  properties:
+  - type: Documentation
+    url: https://www.netscout.com/support/documentation
+  - type: OpenAPI
+    url: https://api.netscout.com/ngenius/openapi.json
+  - type: Authentication
+    url: https://www.netscout.com/support/api-authentication
+  contact:
+  - FN: Netscout API Support
+    email: support@netscout.com
+    url: https://www.netscout.com/support
+- name: Netscout Arbor Sightline API
+  description: 'API for DDoS detection, mitigation, and threat intelligence. Provides programmatic access to Arbor Sightline data for security automation and integration with SIEM and orchestration platforms.
+
+    '
+  image: https://www.netscout.com/sites/default/files/arbor-logo.png
+  humanURL: https://www.netscout.com/arbor
+  baseURL: https://api.netscout.com/arbor
+  tags:
+  - DDoS Protection
+  - Threat Intelligence
+  - Security
+  - SIEM Integration
+  properties:
+  - type: Documentation
+    url: https://www.netscout.com/support/arbor-api-guide
+  - type: OpenAPI
+    url: https://api.netscout.com/arbor/openapi.json
+  - type: Swagger UI
+    url: https://api.netscout.com/arbor/swagger
+  - type: Authentication
+    url: https://www.netscout.com/support/api-authentication
+  contact:
+  - FN: Netscout Arbor Support
+    email: arbor-support@netscout.com
+    url: https://www.netscout.com/arbor/support
+- name: Netscout Omnis Cyber Intelligence API
+  description: 'API for accessing threat intelligence data, including indicators of compromise, attack patterns, and security analytics from the Omnis platform.
+
+    '
+  humanURL: https://www.netscout.com/omnis
+  baseURL: https://api.netscout.com/omnis
+  tags:
+  - Threat Intelligence
+  - Cybersecurity
+  - IOC
+  - Attack Detection
+  properties:
+  - type: Documentation
+    url: https://www.netscout.com/support/omnis-api-docs
+  - type: OpenAPI
+    url: https://api.netscout.com/omnis/openapi.json
+  - type: Rate Limits
+    url: https://www.netscout.com/support/api-rate-limits
+  contact:
+  - FN: Netscout Security Team
+    email: security@netscout.com
+- name: Netscout InfiniStreamNG API
+  description: 'API for accessing deep packet inspection data and network flow analytics from InfiniStreamNG appliances.
+
+    '
+  humanURL: https://www.netscout.com/product/infinistream
+  baseURL: https://api.netscout.com/infinistream
+  tags:
+  - Packet Analysis
+  - Network Flow
+  - Deep Packet Inspection
+  properties:
+  - type: Documentation
+    url: https://www.netscout.com/support/infinistream-api
+  - type: SDK
+    url: https://github.com/netscout/infinistream-sdk
+  contact:
+  - FN: InfiniStream Support
+    email: infinistream-support@netscout.com
+common:
+- type: Portal
+  url: https://www.netscout.com/support
+- type: Getting Started
+  url: https://www.netscout.com/support/getting-started
+- type: Authentication
+  url: https://www.netscout.com/support/api-authentication
+- type: Terms of Service
+  url: https://www.netscout.com/legal/terms-service
+- type: Privacy Policy
+  url: https://www.netscout.com/legal/privacy-policy
+- type: Contact
+  url: https://www.netscout.com/contact
+- type: Blog
+  url: https://www.netscout.com/blog
+- type: Status
+  url: https://status.netscout.com
+- type: Support
+  url: https://www.netscout.com/support/contact
+maintainers:
+- FN: Netscout API Team
+  email: api-team@netscout.com
+  url: https://www.netscout.com
