@@ -9,11 +9,11 @@ created: '2025-01-20'
 modified: '2026-03-16'
 specificationVersion: '0.18'
 tags:
-  - Network Monitoring
   - Cybersecurity
   - DDoS Protection
-  - Service Assurance
+  - Network Monitoring
   - Network Performance
+  - Service Assurance
   - Threat Intelligence
 apis:
   - name: Netscout nGeniusONE API
@@ -24,9 +24,9 @@ apis:
     humanURL: https://www.netscout.com/product/ngenius-one
     baseURL: https://api.netscout.com/ngenius
     tags:
-      - Network Performance
       - Analytics
       - Monitoring
+      - Network Performance
       - Service Assurance
     properties:
       - type: Documentation
@@ -52,9 +52,9 @@ apis:
     baseURL: https://api.netscout.com/arbor
     tags:
       - DDoS Protection
-      - Threat Intelligence
       - Security
       - SIEM Integration
+      - Threat Intelligence
     properties:
       - type: Documentation
         url: https://www.netscout.com/support/arbor-api-guide
@@ -65,8 +65,7 @@ apis:
       - type: Authentication
         url: https://www.netscout.com/support/api-authentication
       - type: Getting Started
-        url: 
-          https://arbor.github.io/sp-rest-api-cookbook/sp-rest-api-tutorial.html
+        url: https://arbor.github.io/sp-rest-api-cookbook/sp-rest-api-tutorial.html
       - type: GitHubRepository
         url: https://github.com/arbor/sp-rest-api-cookbook
     contact:
@@ -84,11 +83,11 @@ apis:
     humanURL: https://www.netscout.com/product/cyber-intelligence
     baseURL: https://api.netscout.com/omnis
     tags:
-      - Threat Intelligence
+      - Attack Detection
       - Cybersecurity
       - IOC
-      - Attack Detection
-      - Network Detection And Response
+      - Network Detection and Response
+      - Threat Intelligence
     properties:
       - type: Documentation
         url: https://www.netscout.com/support/omnis-api-docs
@@ -97,8 +96,7 @@ apis:
       - type: Rate Limits
         url: https://www.netscout.com/support/api-rate-limits
       - type: Reference
-        url: 
-          https://www.netscout.com/resources/data-sheets/omnis-cyberstream-and-omnis-cyber-intelligence
+        url: https://www.netscout.com/resources/data-sheets/omnis-cyberstream-and-omnis-cyber-intelligence
     contact:
       - FN: Netscout Security Team
         email: security@netscout.com
@@ -113,9 +111,9 @@ apis:
     humanURL: https://www.netscout.com/product/isng-platform
     baseURL: https://api.netscout.com/infinistream
     tags:
-      - Packet Analysis
-      - Network Flow
       - Deep Packet Inspection
+      - Network Flow
+      - Packet Analysis
       - Service Assurance
     properties:
       - type: Documentation
@@ -123,8 +121,7 @@ apis:
       - type: SDK
         url: https://github.com/netscout/infinistream-sdk
       - type: Reference
-        url: 
-          https://www.netscout.com/resources/data-sheets/infinistream-platform
+        url: https://www.netscout.com/resources/data-sheets/infinistream-platform
     contact:
       - FN: InfiniStream Support
         email: infinistream-support@netscout.com
@@ -141,8 +138,8 @@ apis:
     baseURL: https://api.netscout.com/aed
     tags:
       - DDoS Protection
-      - Network Security
       - Inline Defense
+      - Network Security
       - Threat Mitigation
     properties:
       - type: Documentation
@@ -166,16 +163,15 @@ apis:
     humanURL: https://www.netscout.com/product/arbor-threat-mitigation-system
     baseURL: https://api.netscout.com/tms
     tags:
-      - DDoS Mitigation
-      - Threat Management
-      - Network Security
       - Attack Response
+      - DDoS Mitigation
+      - Network Security
+      - Threat Management
     properties:
       - type: Documentation
         url: https://www.netscout.com/product/arbor-threat-mitigation-system
       - type: Reference
-        url: 
-          https://www.netscout.com/resources/data-sheets/arbor-threat-mitigation-system-tms
+        url: https://www.netscout.com/resources/data-sheets/arbor-threat-mitigation-system-tms
     contact:
       - FN: Netscout Security Support
         email: support@netscout.com
@@ -192,10 +188,10 @@ apis:
     humanURL: https://www.netscout.com/product/ngeniuspulse
     baseURL: https://api.netscout.com/pulse
     tags:
-      - Synthetic Monitoring
       - Active Testing
       - Application Performance
       - Network Testing
+      - Synthetic Monitoring
     properties:
       - type: Documentation
         url: https://www.netscout.com/product/ngeniuspulse
@@ -218,16 +214,15 @@ apis:
     baseURL: https://api.netscout.com/nba
     tags:
       - Business Analytics
+      - Data Streaming
+      - Kafka
       - Service Provider
       - Smart Data
-      - Kafka
-      - Data Streaming
     properties:
       - type: Documentation
         url: https://www.netscout.com/product/ngenius-business-analytics
       - type: Reference
-        url: 
-          https://www.netscout.com/resources/data-sheets/ngenius-business-analytics
+        url: https://www.netscout.com/resources/data-sheets/ngenius-business-analytics
     contact:
       - FN: Netscout Support
         email: support@netscout.com
