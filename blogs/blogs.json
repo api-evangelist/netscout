@@ -1,0 +1,13 @@
+{
+  "repo": "netscout",
+  "feeds": [
+    {
+      "source": "https://www.netscout.com/blog",
+      "feed_url": "https://www.netscout.com/rss.xml",
+      "saved": 10,
+      "title": "NETSCOUT"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:33:13Z"
+}
