@@ -205,6 +205,11 @@ common:
     url: https://github.com/arbor
   - type: Security
     url: https://www.netscout.com/data-privacy-and-trust-center
+  - type: Integrations
+    url: https://www.netscout.com/partner
+integrations:
+  - name: Netscout
+  - name: Netscout orb
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
