@@ -58,7 +58,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.netscout.com/product/arbor-sightline
-      - type: Getting Started
+      - type: GettingStarted
         url: https://arbor.github.io/sp-rest-api-cookbook/sp-rest-api-tutorial.html
       - type: GitHubRepository
         url: https://github.com/arbor/sp-rest-api-cookbook
@@ -183,11 +183,11 @@ common:
     url: https://my.netscout.com/Pages/overview.aspx
   - type: Documentation
     url: https://www.netscout.com/resources
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.netscout.com/legal/terms-and-conditions
   - type: Website Terms of Use
     url: https://www.netscout.com/legal/website-terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.netscout.com/legal/privacy-policy
   - type: Legal
     url: https://www.netscout.com/legal
@@ -201,7 +201,7 @@ common:
     url: https://www.netscout.com
   - type: Login
     url: https://my.netscout.com/Pages/overview.aspx
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/arbor
   - type: Security
     url: https://www.netscout.com/data-privacy-and-trust-center
