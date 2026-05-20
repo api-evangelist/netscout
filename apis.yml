@@ -179,6 +179,8 @@ apis:
       - type: Reference
         url: https://www.netscout.com/resources/data-sheets/ngenius-business-analytics
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/netscout
   - type: Portal
     url: https://my.netscout.com/Pages/overview.aspx
   - type: Documentation
