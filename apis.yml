@@ -179,6 +179,12 @@ apis:
       - type: Reference
         url: https://www.netscout.com/resources/data-sheets/ngenius-business-analytics
 common:
+  - type: TrustCenter
+    url: security/netscout-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/netscout-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/netscout-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/netscout
   - type: Portal
