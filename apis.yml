@@ -191,6 +191,8 @@ apis:
       - type: Reference
         url: https://www.netscout.com/resources/data-sheets/ngenius-business-analytics
 common:
+  - type: IssueTracker
+    url: https://github.com/arbor/aedansible/issues
   - type: TrustCenter
     url: security/netscout-trust-center.yml
   - type: VulnerabilityDisclosure
