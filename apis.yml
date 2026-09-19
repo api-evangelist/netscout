@@ -195,6 +195,12 @@ apis:
       - Business Analytics
       - Data Streaming
       - Kafka
+      - Service Providers
+      - Smart Data
+    tags_raw:
+      - Business Analytics
+      - Data Streaming
+      - Kafka
       - Service Provider
       - Smart Data
     properties:
