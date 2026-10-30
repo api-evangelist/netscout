@@ -1,4 +1,4 @@
-# Netscout (netscout)
+# Netscout
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,196 +66,115 @@
 
 Netscout provides service assurance, cybersecurity, and DDoS protection solutions. Their products enable network visibility, threat intelligence, and performance monitoring across hybrid and cloud environments. Several Netscout products expose REST APIs and integration interfaces for observability, security automation, and analytics workflows.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/netscout/refs/heads/main/apis.yml)
+**Areas:** Cybersecurity · DDoS Protection · Network Monitoring · Network Performance · Service Assurance · Threat Intelligence
 
-## Scope
+## Netscout on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Netscout is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/netscout/](https://apis.io/providers/netscout/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (8)
 
-- Cybersecurity
-- DDoS Protection
-- Network Monitoring
-- Network Performance
-- Service Assurance
-- Threat Intelligence
+- [Netscout nGeniusONE API](https://apis.io/apis/netscout/ngeniusone/) — RESTful interface for the nGeniusONE platform, enabling network performance monitoring, analytics, and service assurance automation.
+- [Netscout Arbor Sightline SP REST API](https://apis.io/apis/netscout/arbor-sightline/) — REST API for DDoS detection, mitigation, and threat intelligence on the Arbor Sightline platform. Provides programmatic access to alerts, mitigations,…
+- [Netscout Omnis Cyber Intelligence API](https://apis.io/apis/netscout/omnis-cyber-intelligence/) — Open API surface for the Omnis Cyber Intelligence NDR platform, enabling network investigation and adding network context to third-party alerts from SIEM…
+- [Netscout InfiniStreamNG API](https://apis.io/apis/netscout/infinistreamng/) — Programmatic interface to deep packet inspection data and network flow analytics from InfiniStreamNG appliances. Feeds ASI Smart Data metadata to analytics…
+- [Netscout Arbor Edge Defense API](https://apis.io/apis/netscout/arbor-edge-defense/) — REST API for Arbor Edge Defense (AED), an inline security appliance deployed at the network perimeter that provides stateless, on-premises DDoS protection.…
+- [Netscout Arbor Threat Mitigation System API](https://apis.io/apis/netscout/arbor-tms/) — API for the Arbor Threat Mitigation System (TMS), the carrier-class DDoS mitigation solution that works with Arbor Sightline to surgically remove DDoS…
+- [Netscout nGeniusPULSE API](https://apis.io/apis/netscout/ngeniuspulse/) — API surface for nGeniusPULSE, Netscout's synthetic testing and active monitoring platform. nGeniusPULSE uses nPoint test agents deployed across LAN, WAN,…
+- [Netscout nGenius Business Analytics API](https://apis.io/apis/netscout/ngenius-business-analytics/) — REST and Kafka interfaces for the nGenius Business Analytics platform, enabling service providers to export enriched ASI Smart Data to third-party data…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-20
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (3)
 
-### Netscout nGeniusONE API
+Authentication, trust centre, and vulnerability disclosure.
 
-RESTful interface for the nGeniusONE platform, enabling network performance monitoring, analytics, and service assurance automation.
+- [Netscout Domain Security](https://apis.io/security/netscout/netscout-domain-security/)
+- [Netscout Trust Center](https://apis.io/security/netscout/netscout-trust-center/)
+- [Netscout Vulnerability Disclosure](https://apis.io/security/netscout/netscout-vulnerability-disclosure/)
 
-**Human URL:** [https://www.netscout.com/product/ngenius-one](https://www.netscout.com/product/ngenius-one)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Analytics
-- Monitoring
-- Network Performance
-- Service Assurance
+- [Netscout Plans Pricing](https://apis.io/plans/netscout/netscout-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://www.netscout.com/product/ngenius-one)
-- [Reference](https://www.netscout.com/product/ngeniusone-solution)
+Published request limits.
 
-### Netscout Arbor Sightline SP REST API
+- [Netscout Rate Limits](https://apis.io/rate-limits/netscout/netscout-rate-limits/)
 
-REST API for DDoS detection, mitigation, and threat intelligence on the Arbor Sightline platform. Provides programmatic access to alerts, mitigations, routers, managed objects, and annotations via a JSON:API-style REST interface, with cookbook examples and tutorials maintained on GitHub.
+#### FinOps (1)
 
-**Human URL:** [https://www.netscout.com/product/arbor-sightline](https://www.netscout.com/product/arbor-sightline)
+What the API costs to run, by operation.
 
-#### Tags
+- [Netscout Finops](https://apis.io/finops/netscout/netscout-finops/)
 
-- DDoS Protection
-- Security
-- SIEM Integration
-- Threat Intelligence
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://www.netscout.com/product/arbor-sightline)
-- [Getting Started](https://arbor.github.io/sp-rest-api-cookbook/sp-rest-api-tutorial.html)
-- [GitHub Repository](https://github.com/arbor/sp-rest-api-cookbook)
-
-### Netscout Omnis Cyber Intelligence API
-
-Open API surface for the Omnis Cyber Intelligence NDR platform, enabling network investigation and adding network context to third-party alerts from SIEM and EDR systems using historical network metadata and packet data.
-
-**Human URL:** [https://www.netscout.com/product/cyber-intelligence](https://www.netscout.com/product/cyber-intelligence)
-
-#### Tags
-
-- Attack Detection
-- Cybersecurity
-- IOC
-- Network Detection and Response
-- Threat Intelligence
-
-#### Properties
-
-- [Documentation](https://www.netscout.com/product/cyber-intelligence)
-- [Reference](https://www.netscout.com/resources/data-sheets/omnis-cyberstream-and-omnis-cyber-intelligence)
-
-### Netscout InfiniStreamNG API
-
-Programmatic interface to deep packet inspection data and network flow analytics from InfiniStreamNG appliances. Feeds ASI Smart Data metadata to analytics stacks for service assurance, application performance management, cybersecurity, and business intelligence.
-
-**Human URL:** [https://www.netscout.com/product/isng-platform](https://www.netscout.com/product/isng-platform)
-
-#### Tags
-
-- Deep Packet Inspection
-- Network Flow
-- Packet Analysis
-- Service Assurance
-
-#### Properties
-
-- [Documentation](https://www.netscout.com/product/isng-platform)
-- [Reference](https://www.netscout.com/resources/data-sheets/infinistream-platform)
-
-### Netscout Arbor Edge Defense API
-
-REST API for Arbor Edge Defense (AED), an inline security appliance deployed at the network perimeter that provides stateless, on-premises DDoS protection. Enables programmatic management of inbound and outbound block/allow lists, protection groups, and mitigation policies, with integration via REST, STIX/TAXII, and Syslog. An Ansible collection is published for automation.
-
-**Human URL:** [https://www.netscout.com/product/arbor-aed-aem](https://www.netscout.com/product/arbor-aed-aem)
-
-#### Tags
-
-- DDoS Protection
-- Inline Defense
-- Network Security
-- Threat Mitigation
-
-#### Properties
-
-- [Documentation](https://www.netscout.com/product/arbor-aed-aem)
-- [Reference](https://www.netscout.com/resources/data-sheets/netscout-aed-and-aem)
-- [GitHub Repository](https://github.com/arbor/aedansible)
-
-### Netscout Arbor Threat Mitigation System API
-
-API for the Arbor Threat Mitigation System (TMS), the carrier-class DDoS mitigation solution that works with Arbor Sightline to surgically remove DDoS attack traffic from network flows. Provides programmatic control of mitigation operations, countermeasure configuration, and attack response automation.
-
-**Human URL:** [https://www.netscout.com/product/arbor-threat-mitigation-system](https://www.netscout.com/product/arbor-threat-mitigation-system)
-
-#### Tags
-
-- Attack Response
-- DDoS Mitigation
-- Network Security
-- Threat Management
-
-#### Properties
-
-- [Documentation](https://www.netscout.com/product/arbor-threat-mitigation-system)
-- [Reference](https://www.netscout.com/resources/data-sheets/arbor-threat-mitigation-system-tms)
-
-### Netscout nGeniusPULSE API
-
-API surface for nGeniusPULSE, Netscout's synthetic testing and active monitoring platform. nGeniusPULSE uses nPoint test agents deployed across LAN, WAN, Wi-Fi, VPN, data centers, and cloud environments to run scheduled and on-demand tests for HTTP/HTTPS, DNS, DHCP, ICMP, TCP, and voice/collaboration transactions.
-
-**Human URL:** [https://www.netscout.com/product/ngeniuspulse](https://www.netscout.com/product/ngeniuspulse)
-
-#### Tags
-
-- Active Testing
-- Application Performance
-- Network Testing
-- Synthetic Monitoring
-
-#### Properties
-
-- [Documentation](https://www.netscout.com/product/ngeniuspulse)
-- [Reference](https://www.netscout.com/demo/application-and-infrastructure-health)
-
-### Netscout nGenius Business Analytics API
-
-REST and Kafka interfaces for the nGenius Business Analytics platform, enabling service providers to export enriched ASI Smart Data to third-party data lakes, applications, and analytics platforms for business intelligence and data monetization.
-
-**Human URL:** [https://www.netscout.com/product/ngenius-business-analytics](https://www.netscout.com/product/ngenius-business-analytics)
-
-#### Tags
-
-- Business Analytics
-- Data Streaming
-- Kafka
-- Service Provider
-- Smart Data
-
-#### Properties
-
-- [Documentation](https://www.netscout.com/product/ngenius-business-analytics)
-- [Reference](https://www.netscout.com/resources/data-sheets/ngenius-business-analytics)
-
-## Common Properties
-
-- [Portal](https://my.netscout.com/Pages/overview.aspx)
-- [Documentation](https://www.netscout.com/resources)
-- [Terms of Service](https://www.netscout.com/legal/terms-and-conditions)
-- [Website Terms of Use](https://www.netscout.com/legal/website-terms-of-use)
-- [Privacy Policy](https://www.netscout.com/legal/privacy-policy)
-- [Legal](https://www.netscout.com/legal)
-- [Contact](https://www.netscout.com/contact-us)
-- [Blog](https://www.netscout.com/blog)
-- [Support](https://www.netscout.com/support-services)
 - [Website](https://www.netscout.com)
-- [Login](https://my.netscout.com/Pages/overview.aspx)
-- [GitHub Organization](https://github.com/arbor)
+- [Documentation](https://www.netscout.com/resources)
+- [Support](https://www.netscout.com/support-services)
+- [Blog](https://www.netscout.com/blog)
 - [Security](https://www.netscout.com/data-privacy-and-trust-center)
+- [Terms of service](https://www.netscout.com/legal/terms-and-conditions)
+- [Privacy policy](https://www.netscout.com/legal/privacy-policy)
+- [GitHub](https://github.com/arbor)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 29.4** — thin · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 50.0 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/netscout/](https://apis.io/providers/netscout/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Netscout: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/netscout/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
